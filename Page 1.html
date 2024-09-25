@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<style>
+        body {
+	        background-image: url("https://th.bing.com/th/id/OIG2.fezfX8cYbP88cGkjn5oc?pid=ImgGn");
+	        background-size: cover;
+	        background-repeat: no-repeat;
+	        background-attachment: fixed;
+	        font-family: Arial, sans-serif;
+            height:100vh;
+            margin:0;
+        }
+        .logo{
+            position:absolute;
+            top:10px;
+            right:10px;
+            width:125px;
+            height:125px;
+            z-index:1;
+            border-radius: 50%;
+            overflow:hidden;
+        }
+        .container {
+	        width: 450px; /* Increased width by 20% */
+            height: 350px;
+	        position: absolute;
+	        top: 50%;
+	        left: 50%;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+	        transform: translate(-50%, -50%); /* Center both horizontally and vertically */
+	        padding: 30px; /* Increased padding for a more spacious feel */
+	        background-color: rgba(51, 51, 51, 0.8); /* Slightly transparent dark background */
+	        border-radius: 10px;
+	        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .login-form {
+	        padding: 20px;
+        }
+
+        h1 {
+	        color: #fff;
+	        font-size: 30px; /* Increased font size for headings */
+			text-align:center;
+	        margin-bottom: 25px;
+        }
+
+        input[type="username"], input[type="password"] {
+	        width: 100%;
+	        padding: 10px;
+	        margin-bottom: 30px;
+	        border: none;
+	        border-radius: 5px;
+        }
+
+        input[type="username"]:focus, input[type="password"]:focus {
+	        border: 1px solid #ccc;
+	        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        button[type="submit"] {
+	        background-color: #4CAF50;
+	        color: #fff;
+	        padding: 10px 20px;
+	        border: none;
+	        border-radius: 5px;
+	        cursor: pointer;
+	        transition: background-color 0.3s ease; /* Smooth hover effect */
+	        display: block; /* Center the button */
+	        margin: 0 auto; /* Center horizontally */
+        }
+
+        button[type="submit"]:hover {
+	        background-color: #3e8e41; /* Darker green on hover */
+        }
+        
+    </style>
+</head>
+<body>
+	<div class="container">
+		<div class="login-form">
+			<h1>Login</h1>
+			<form>
+				<input type="Username" placeholder="Usename" required>
+				<input type="password" placeholder="Password" required>
+				<button type="submit" onclick="window.location.href='not_found 2.html'">Login</button>
+			</form>
+		</div>
+	</div>
+    <img src="https://designerapp.officeapps.live.com/designerapp/Media.ashx/?id=ea431c5a-26f8-460a-929b-b0a52938cbc1.jpeg&fileToken=792a55ac-f8b7-4408-9931-bb9e56026990&dcHint=JapanEast" alt="Logo" class="logo">
+</body>
+</html>

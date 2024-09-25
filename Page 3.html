@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Choose Your Path</title>
+    <style>
+        body {
+            background-image: url("https://www.pexels.com/search/website%20background/"); /* Replace with your chosen background image URL */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            color: #fff; /* Text color for readability */
+            margin: 0; /* Remove default body margin */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Make sure the container takes up the full viewport height */
+        }
+        
+        .choice-buttons {
+            display: flex;
+            justify-content: space-between;
+        }
+        .choice-button {
+            margin: 0 10px;
+			margin-right:150px;
+			margin-left:150px;
+            padding: 120px; /* Larger button size (700%) */
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 50%; /* Circular shape */
+            cursor: pointer;
+			background-blend-mode: multiply;
+			background-size: 20px 20px, 20px 20px;
+			background-position: center,center;
+        }
+		.choice-button-img{
+			width:100px;
+			height:100px;
+			margin-right: 10px;
+			vertical-align: middle;
+			mix-blend-mode: multiply;
+			opacity:0.2;
+		}
+        .choice-button:hover {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+<body>
+    <div class="choice-buttons">
+        <button class="choice-button" onclick="window.location.href='buy.html'">
+			<img src="https://i.ibb.co/1MH2zzQ/Design-2-1.jpg" alt="Borrow">
+		</button>
+        <button class="choice-button" onclick="window.location.href='sell.html'">
+			<img src="https://i.ibb.co/X73FcZp/Design-2.jpg" alt="Lend" >
+		</button>
+    </div>
+</body>
+</html>

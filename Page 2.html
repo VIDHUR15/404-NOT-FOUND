@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Information</title>
+	<style>
+        body {
+	        background-image: url("https://th.bing.com/th/id/OIG2.fezfX8cYbP88cGkjn5oc?pid=ImgGn");
+	        font-family: Arial, sans-serif;
+        }
+
+        .container {
+	        width: 400px;
+	        margin: 40px auto;
+	        padding: 20px;
+	        background-color: #333;
+	        border-radius: 10px;
+	        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .info-form {
+	        padding: 20px;
+        }
+
+        h2 {
+	        color: #fff;
+	        margin-bottom: 20px;
+        }
+
+        label {
+	        color: #fff;
+	        margin-bottom: 10px;
+        }
+
+        input[type="tel"], input[type="text"] {
+	        width: 100%;
+	        padding: 10px;
+	        margin-bottom: 20px;
+	        border: none;
+	        border-radius: 5px;
+        }
+
+        input[type="tel"]:focus, input[type="text"]:focus {
+	        border: 1px solid #ccc;
+	        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        button[type="submit"] {
+	        background-color: #4CAF50;
+	        color: #fff;
+	        padding: 10px 20px;
+	        border: none;
+	        border-radius: 5px;
+	        cursor: pointer;
+            transition: background-color 0.3s ease; /* Smooth hover effect */
+	        display: block; /* Center the button */
+	        margin: 0 auto; /* Center horizontally */
+        }
+
+        button[type="submit"]:hover {
+	        background-color: #3e8e41;
+        }
+		.logo{
+            position:absolute;
+            top:10px;
+            right:10px;
+            width:125px;
+            height:125px;
+            z-index:1;
+            border-radius: 50%;
+            overflow:hidden;
+        }
+    </style>
+</head>
+<body>
+	<div class="container">
+		<div class="info-form">
+			<h2>Enter Details</h2>
+			<form>
+                <label for="name"></label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+                <br><br>
+				<label for="contact-number"></label>
+				<input type="tel" id="contact-number" placeholder="Enter your contact number" required>
+				<br><br>
+				<label for="block-number"></label>
+				<input type="text" id="block-number" placeholder="Enter your block number" required>
+				<br><br>
+				<label for="room-number"></label>
+				<input type="text" id="room-number" placeholder="Enter your room number" required>
+				<br><br>
+				<button type="submit" onclick="window.location.href='Page 3.html'">Submit</button>
+			</form>
+		</div>
+	</div>
+	<img src="https://designerapp.officeapps.live.com/designerapp/Media.ashx/?id=ea431c5a-26f8-460a-929b-b0a52938cbc1.jpeg&fileToken=792a55ac-f8b7-4408-9931-bb9e56026990&dcHint=JapanEast" alt="Logo" class="logo">
+</body>
+</html>
